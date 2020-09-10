@@ -23,15 +23,9 @@ There are a few technical implementations that can get go links to work.
 ##### install.sh
   ```console
 
-  sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/GoLinks/golinks/golinks/install.sh)"
+  sudo /bin/bash -c "$(curl -fsSLd GET https://golinks.io/d/golinks/install.sh)"
 
   ```
-
-### Example of the go links installation script
-
-> [![Installing golinks](https://raw.githubusercontent.com/GoLinks/golinks/golinks/golinks.gif)](https://asciinema.org/a/358811)
-
-
 
   1. Copy and paste the script above into terminal
   2. Click [http://go/links?trackSource=install](http://go/links?trackSource=install) to test installation.
